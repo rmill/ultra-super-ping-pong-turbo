@@ -1,0 +1,31 @@
+{
+  "name": "ultra-super-ping-pong-turbo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "body-parser": "^1.15.0",
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.2"
+  },
+  "scripts": {
+    "start": "npm run serve.game",
+    "build": "babel app -d build --copy-files",
+    "serve.discovery": "node ./build/index.js",
+    "serve.game": "electron ./build/main.js --enable-logging"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmill/ultra-super-ping-pong-turbo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmill/ultra-super-ping-pong-turbo/issues"
+  },
+  "homepage": "https://github.com/rmill/ultra-super-ping-pong-turbo#readme"
+}
