@@ -19,7 +19,7 @@ function createWindow() {
   // win.setMenu(null);
 
   // and load the index.html of the app.
-  win.loadURL(`${APP_PATH}/view/index.html`);
+  win.loadURL(`${APP_PATH}/view/arena.html`);
 
   // Emitted when the window is closed.
   win.on('closed', () => {

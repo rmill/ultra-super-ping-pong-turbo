@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.scores {
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+}
+
+.score {
+  color: white;
+}
+
+.wall {
+  width: 100%;
+  background: white;
+  height: 10px;
+  position: absolute;
+}
+
+.paddle {
+  position: absolute;
+  width: 50px;
+  background-color: white;
+}
+
+.ball {
+  position: absolute;
+  background-color: white;
+}
